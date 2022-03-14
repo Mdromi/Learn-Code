@@ -1,0 +1,13 @@
+//1
+
+//$selector : selector-nest("ul" , "li");
+//$selector : selector-nest(".abc, .xyz" , "p");
+//$selector : selector-nest(".abc" , "&:hover");
+$selector : selector-nest(".abc" , "&_xyz");
+
+#{$selector}{
+	width: 10px;
+}
+
+//2
+$selector-append:hhhh;

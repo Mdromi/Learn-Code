@@ -1,0 +1,77 @@
+.test1{
+	margin: abs(-10px); //return 10px
+}
+
+
+.test2{
+	margin: ceil(4.2px); //return 5px
+}
+.test2{
+	margin: ceil(4.0px); //return 4px
+}
+
+.test3{
+	margin: floor(3.8px); //return 3px
+}
+
+
+.test4{
+	margin: round(3.4); //return 3
+}
+.test5{
+	margin: round(3.5); //return 4
+}
+.test6{
+	margin: round(3.45); //return 3
+}
+
+
+
+.test7{
+	margin: max(1px, 4px, 50px); //return 50px
+}
+.test8{
+	margin: min(10px, 4px, 50px); //return 4px
+}
+
+
+.test9{
+	margin: percentage(0.2); //return 20%
+}
+.test10{
+	margin: percentage(100px / 50px); //return 200%
+}
+
+
+.test11{
+	margin: comparable(2px,1px); //return true
+}
+.test12{
+	margin: comparable(2px,1em); //return false
+}
+.test13{
+	margin: comparable(2cm,1mm); //return true
+}
+
+
+.test14{
+	margin: random(); //return 0-1>= any random value
+}
+.test15{
+	margin: random(10); //return 0-10>= any random value
+}
+
+
+.test16{
+	margin: unit(100px); //return "px"
+}
+.test17{
+	margin: unit(100px * 2em); //return "px * em"
+}
+
+.test18{
+	margin: unitless(100px); //return false
+}
+.test18{
+	margin: unitless(100); //return true
+}

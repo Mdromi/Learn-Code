@@ -1,0 +1,10 @@
+h1{
+    border: 2px solid red;
+}
+
+p{
+    border: 5px dotted  red;
+    padding: 10px;
+    outline: 5px dotted greenyellow;
+    outline-offset: 5px;
+}

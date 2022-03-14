@@ -1,0 +1,48 @@
+h1{
+    color: teal;
+    text-decoration: underline;
+    text-decoration-color: teal;
+    text-decoration-style: wavy;
+}
+
+.first{
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: pink;
+    border: 5px solid  black;
+    float: left;
+}
+
+.first span{
+    text-decoration: line-through;
+}
+
+.second{
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: greenyellow;
+    border: 5px solid  black;
+    float: right;
+}
+
+.second span{
+    text-decoration: line-through white solid;
+}
+
+.third{
+    margin: 20px auto;
+    padding: 20px;
+    background-color: goldenrod;
+    border: 5px solid  black;
+    clear: both;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+}

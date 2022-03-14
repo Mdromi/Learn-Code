@@ -1,0 +1,60 @@
+
+.test1{
+	font-family: quote(Arial); //return "Arial"
+}
+.test2{
+	font-family: unquote("Arial"); //return Arial
+}
+
+
+.test3{
+	font-family: to-upper-case("Arial"); //return "ARIAL"
+}
+.test3{
+	font-family: to-upper-case(Arial); //return ARIAL
+}
+
+
+.test4{
+	font-family: to-lower-case(ARIAL); //return arial
+}
+
+
+.test5{
+	font-family: str-length(MdRomi); //return 6
+}
+.test5{
+	font-family: str-length("Md Romi"); //return 7
+}
+
+
+.test6{
+	font-family: str-index("Md Romi" ,"Romi"); //return 4
+}
+.test6{
+	font-family: str-index("Md Romi" ,"Md"); //return 1
+}
+.test6{
+	font-family: str-index("Md Romi" ,"o"); //return 5
+}
+
+
+.test7{
+	font-family: str-insert("Md Romi" ," Now learning Web Developing",8); //return "Md Romi Now learning Web Developing"
+}
+
+
+
+.test8{
+	font-family: str-slice("Md Romi" ,4); //return "Romi"
+}
+.test8{
+	font-family: str-slice("Md Romi Now learning Web Developing" ,3,11); //return " Romi Now"
+}
+.test8{
+	font-family: str-slice("Md Romi Now learning Web Developing" ,3,-11); //return " Romi Now learning Web "
+}
+
+.test6{
+	font-family: unique-id(); //return any string number | ID
+}

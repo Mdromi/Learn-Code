@@ -1,0 +1,68 @@
+=================
+Before The Start
+=================
+1.Open File. [Learn Code > JavaScript > Stack Larner > JS_FOR_ALL]
+2.Open VS Code Editor. [ ]
+3.Open Browser.[Go W3 Schools]
+4.Open pdf book. [file > pdf > JavaScript> ]
+5.Open Git Bash
+===================
+Learning Speed : Start Date: 13/03/2022
+==================
+Course Structure{
+	[ 01.Introductions, 02.Programming Basics, 03.Logic and Conditions, 04.Loops and Repetition, 05.Handling String, 06.Arrays, 07.Objects, 08.Functions, 09.Functional Programming, 10.Scope and Closure, 11.OOP Intro, 12.OOP With JS, 13.Prototype, 14.Prototype Inheritance, 15.ES6, 16.Error Handling, 17.Asynchronous Programming, 18.DOM, 19.Project ]
+}
+
+//Day1 
+CP:01 Introductions
+Date:13/03/2022 
+ 1.Js Course Introductions[v-001] [Notes]
+ 2.Who is This Course For[v-002] [Notes]
+ 3.Who to use This Course Contents[v-003] [Notes]
+ 4.Setup Working Environment[v-004] [Notes]
+
+//Day1 
+CP:02 Programming Basics
+Date:13/03/2022 
+ 1.Console.log[v-005][s-01]
+ 2.Variables[v-006][s-02]
+ 3.Reserved Words[v-007] [Notes]
+ 4.DataTypes[v-008][Notes]
+ 5.Basic Numbers[v-009][s-03]
+ 6.String[v-010][s-04]
+ 7.Booleans[v-011][s-05]
+ 8.Null & Undefined[v-012][s-06]
+ 9.Type Conversion[v-013][s-07]
+ 10.Octal & Hexadecimal [v-014][s-08]
+ 11.Constants[s-09]
+ 12.Operators[v-015][s-10]
+ 13.Statements[v-016][s-11]
+ 14.Math Function[v-017][s-12]
+ 15.Date Function[v-018][s-13]
+ 16.Comments[v-019][Notes]
+ 
+//Day2 
+CP:03 Logic and Conditions
+Date:14/03/2022 
+ 1.Logic and Conditions[v-020] [Notes]
+ 2.If Conditions[v-021] [s-01]
+ 3.Else Conditions[v-022] [s-02]
+ 4.Else If Conditions[v-023] [s-03]
+ 5.Switch Conditions[v-024] [s-04]
+ 6.logical Operator[v-025] [s-05]
+ 7.Ternary Operator[v-026] [s-06]
+ 8.logical And Or[v-027] [s-07]
+
+//Day2 
+CP:04 Loops and Repetition
+Date:14/03/2022 
+ 1.Introduction Loops[v-028] [s-01]
+ 2.For Loop[v-029] [s-02]
+ 3.Loop[v-030] [s-03]
+ 4.Do While Loop[v-031] [s-04]
+ 5.Nasted Loop[v-032] [s-05]
+ 6.Break[v-033] [s-06]
+ 7.Continue[v-034] [s-07]
+ 8.Ifinity For Loop[v-035] [s-08]
+ 
+ 

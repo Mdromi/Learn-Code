@@ -1,0 +1,18 @@
+
+h1{
+    color: teal;
+}
+
+ul{
+    list-style-type: circle;
+    list-style-position: inside;
+    list-style-image: url(r1.png);
+    border: 3px solid black;
+}
+li{
+    padding: 3px 0;
+}
+ol{
+    list-style: none inside url(r2.png);
+    border: 3px solid red;
+}

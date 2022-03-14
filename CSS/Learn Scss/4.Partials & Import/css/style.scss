@@ -1,0 +1,19 @@
+@import "variables"
+@import "header"
+@import "content"
+@import "footer"
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background:slategrey;
+}
+.wrapper{
+	margin:0 auto;
+	width:1000px;
+	border:1px solid $border-color;
+	background:white;
+}

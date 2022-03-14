@@ -1,0 +1,41 @@
+@font-face {
+    font-family: openSans;
+    src: url(Fonts/OpenSans-Regular-webfont.eot),url(Fonts/OpenSans-Regular-webfont.woff);
+}
+h1{
+    color: teal;
+}
+
+.first{
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: pink;
+    border: 5px solid  black;
+    float: left;
+}
+
+.second{
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: greenyellow;
+    border: 5px solid  black;
+    float: right;
+}
+
+.third{
+    margin: 20px auto;
+    padding: 20px;
+    background-color: goldenrod;
+    border: 5px solid  black;
+    clear: both;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    font-family: openSans;
+}

@@ -1,0 +1,54 @@
+/*
+.abc1{
+	padding: 10px == 10px; //return true
+}
+*/
+.abc2 {
+  padding: false; }
+
+.abc3 {
+  padding: false; }
+
+.abc4 {
+  padding: true; }
+
+.abc5 {
+  padding: true; }
+
+.abc6 {
+  padding: true; }
+
+.abc7 {
+  padding: true; }
+
+.abc8 {
+  padding: true; }
+
+.abc9 {
+  padding: false; }
+
+.abc10 {
+  padding: true; }
+
+.abc11 {
+  padding: true; }
+
+.abc12 {
+  padding: true; }
+
+.abc13 {
+  padding: false; }
+
+.abc14 {
+  padding: true; }
+
+.abc15 {
+  padding: true; }
+
+.abc16 {
+  padding: false; }
+
+.abc17 {
+  padding: true; }
+
+/*# sourceMappingURL=operators.css.map */

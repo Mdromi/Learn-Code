@@ -1,0 +1,55 @@
+=================
+Before The Start
+=================
+1.Open File. [Learn Code > Web Design > Learn CSS > Basics CSS > ]
+2.Open VS Code. [ ]
+3.Open YouTube.[Yahoo Baba]
+===================
+Learning Speed : Start Date: 02/07/2021
+================== 
+
+//Day1
+CP:02 CSS-[01-15]
+Date: 02/07/2021
+ 1.CSS Introduction[v-01][s-02]
+ 2.CSS Implementation[v-02]
+ 3.CSS Color - Background Color[v-03][s-03] //websafecolors.info
+ 4.CSS Selector[v-04][s-04]
+ 5.CSS Border[v-05][s-05]
+ 6.CSS Outline[v-06][s-06]
+ 7.CSS Padding[v-07][s-07]
+ 8.CSS Margin[v-08][s-08]
+ 9.CSS Height Width[v-09][s-09]
+ 10.CSS Min-height Max-height[v-10][s-10]
+ 11.CSS Min-width Max-width[v-11][s-11]
+ 12.CSS Box-Sizing[v-12][s-12]
+ 13.CSS Overflow[v-13][s-13]
+ 14.CSS Border-Radius[v-14][s-14]
+ 15.CSS Box-Shadow[v-15][s-15]
+ 
+//Day2
+CP:02 CSS-[16-15]
+Date: 03/07/2021
+ 1.CSS Float[v-16][s-01]
+ 2.CSS Clear[v-17][s-02]
+ 3.CSS Font Properties[v-18][s-03]
+ 4.CSS Text Properties[v-19][s-04]
+ 5.CSS Text Decoration[v-20][s-05]
+ 6.CSS Word-Wrap[v-21][s-06]
+ 7.CSS Text-Shadow[v-22][s-07]
+ 8.CSS White Space[v-23][s-08]
+ 9.CSS Text-Overflow[v-24][s-09]
+ 10.CSS Writing-mode[v-25][s-10]
+ 11.CSS Column-Count[v-26][s-11]
+ 12.CSS Font-face rule[v-27][s-12] // fontsquirrel.com
+ 13.CSS Google font[v-28][s-13] // fonts.google.com
+ 14.CSS List-Style[v-29][s-14] // iconfinder.com
+ 15.14.CSS Background-image[v-30][s-15]
+
+//Day3 [contact-form-7 id="206" title="Get a Quote"]
+CP:02 CSS-[01-15]
+Date: 02/07/2021
+
+//Day4
+CP:02 CSS-[01-15] 
+Date: 02/07/2021

@@ -1,0 +1,46 @@
+h1{
+    color: teal;
+}
+
+.first{
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: pink;
+    border: 5px solid  black;
+    float: left;
+    text-transform: uppercase;
+    text-indent: 100px;
+}
+
+.second{
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: greenyellow;
+    border: 5px solid  black;
+    float: right;
+    text-align-last: center;
+    text-transform: lowercase;
+    word-spacing: 5px;
+    letter-spacing: 10px;
+}
+
+.third{
+    margin: 20px auto;
+    padding: 20px;
+    background-color: goldenrod;
+    border: 5px solid  black;
+    clear: both;
+    text-align: justify;
+    text-align-last: center;
+    text-transform: capitalize;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+}

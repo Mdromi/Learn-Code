@@ -1,0 +1,74 @@
+
+//Equality Operators
+	/*
+	.abc1{
+		padding: 10px == 10px; //return true
+	}
+	*/
+
+
+	.abc2{
+		padding: 10px == 10em; //return false
+	}
+
+	.abc3{
+		padding: 10px == 20px; //return false
+	}
+
+	.abc4{
+		padding: 10px != 20px; //return true
+	}
+
+	.abc5{
+		padding: arial == 'arial'; //return true
+	}
+
+	.abc6{
+		padding: arial == arial; //return true
+	}
+
+	.abc7{
+		padding: (5px 7px 10px) == (5px 7px 10px); //return true
+	}
+
+//Relational Operators
+
+	.abc8{
+		padding: 100 > 30; //return true
+	}
+	.abc9{
+		padding: 10 > 30; //return false
+	}
+
+	.abc10{
+		padding: 10px > 5px; //return true
+	}
+	.abc11{
+		padding: 1000ms >= 1s; //return true
+	}
+
+
+//Boolean Operators
+	//and Operators
+		.abc12{
+			padding: arial == 'arial' and 10px == 10; //return true
+		}
+		.abc13{
+			padding: arial == 'arial' and 10px == 20; //return false
+		}
+
+	//or Operators
+		.abc14{
+			padding: arial == 'arial' or 10px == 10; //return true
+		}
+		.abc15{
+			padding: arial == 'arial' or 10px == 20; //return true
+		}
+
+	//not Operators
+		.abc16{
+			padding: not 10px == 10; //return false
+		}
+		.abc17{
+			padding: not 10px != 10; //return true
+		}

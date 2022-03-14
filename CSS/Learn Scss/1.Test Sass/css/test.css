@@ -1,0 +1,14 @@
+nav ul {
+  margin: 0;
+  padding: 0; }
+nav li {
+  list-style: none;
+  display: inine-block;
+  padding-top: 20px;
+  padding-bottom: 10px; }
+nav a {
+  color: #ddd;
+  text-decoration: none;
+  display: inline-block; }
+
+/*# sourceMappingURL=test.css.map */

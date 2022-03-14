@@ -1,0 +1,8 @@
+h1{
+    border: 2px solid red;
+}
+
+p{
+    border: 5px outset red;
+    padding: 10px;
+}

@@ -1,0 +1,17 @@
+h1{
+    color: teal;
+}
+
+.test1,.test2{
+    border: 5px solid  red;
+    padding: 20px;
+}
+
+.test1{
+    width: 600px;
+    margin: 20px auto;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+}

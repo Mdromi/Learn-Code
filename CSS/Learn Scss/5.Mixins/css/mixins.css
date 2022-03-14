@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: arial; }
+
+.wrapper {
+  margin: 30px 30px; }
+
+.first {
+  background: DarkSlateBlue;
+  margin-top: 10px;
+  Width: 150px;
+  height: 150px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 3px 3px 0 black;
+  -moz-box-shadow: 3px 3px 0 black;
+  box-shadow: 3px 3px 0 black; }
+
+.secound {
+  background: DarkSeagreen;
+  Width: 300px;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px 15px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: -3px -3px 3px black;
+  -moz-box-shadow: -3px -3px 3px black;
+  box-shadow: -3px -3px 3px black; }
+
+.third {
+  background: HotPink;
+  Width: 500px;
+  height: 200px;
+  padding: 15px 15px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px; }
+
+/*# sourceMappingURL=mixins.css.map */

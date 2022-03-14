@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAOA,QAAY;EACX,KAAK,EAAE,IAAI",
+"sources": ["Selectors_Function.scss"],
+"names": [],
+"file": "Selectors_Function.css"
+}

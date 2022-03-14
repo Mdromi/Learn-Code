@@ -1,0 +1,22 @@
+=================
+Before The Start
+=================
+1.Open File. [Learn Code > JavaScript > Zonayed Ahmed]
+2.Open VS Code Editor. [ ]
+3.Open Browser.[Go W3 Schools]
+4.Open pdf book. [file > pdf > JavaScript> ]
+5.Open Git Bash
+===================
+Learning Speed : Start Date: 10/03/2022
+==================
+
+//Day1 
+CP: 01 Basics
+Date:10/03/2022 
+ 1.What, how, when?[Notes]
+ 2.Who to ue This Course [Notes]
+ 3.Variable or DataTypes[l-03][s-03]
+ 4.Comments[l-04][Notes]
+ 5.Operator[l-05][s-04]
+ 6.Conditonal Statement[l-06][s-05]
+ 6.Loop[l-07][s-06]

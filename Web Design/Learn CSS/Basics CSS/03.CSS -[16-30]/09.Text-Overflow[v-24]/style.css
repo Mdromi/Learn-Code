@@ -1,0 +1,29 @@
+h1{
+    color: teal;
+}
+
+.first{
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: pink;
+    border: 5px solid  black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: " - ";
+}
+
+.third{
+    margin: 20px auto;
+    padding: 20px;
+    background-color: goldenrod;
+    border: 5px solid  black;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+}

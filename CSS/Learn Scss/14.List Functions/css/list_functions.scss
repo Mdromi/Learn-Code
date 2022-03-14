@@ -1,0 +1,97 @@
+$list : 10px 20px 30px;
+$list2 : 40px 50px 60px;
+
+.test1{
+	padding:length($list); //returns 3
+}
+.test2{
+	padding:length((width:10px,height:20px)); //returns 2
+}
+
+.test3{
+	padding: nth($list, 2); //returns 20px
+}
+.test3{
+	padding: nth($list, -1); //returns 30px
+}
+.test3{
+	padding: nth([list1, list2, list3], -1); //returns list3
+}
+
+
+.test4{
+	padding: set-nth($list, 1,2em); //returns [2em 20px 30px]
+}
+.test4{
+	padding: set-nth((Helvetica, Arial, Verdana), 2,Roboto); //returns [Helvetica, Roboto, Verdana]
+}
+
+
+.test5{
+	padding: join($list,$list); //returns [10px 20px 30px 10px 20px 30px]
+}
+.test5{
+	padding: join(1 2 3, 4 5); //returns [1 2 3 4 5]
+}
+.test5{
+	padding: join((1 2 3), (4 5)); //returns [1 2 3 4 5]
+}
+.test5{
+	padding: join((1, 2, 3), (4 5)); //returns [1, 2, 3, 4, 5]
+}
+.test5{
+	padding: join((1, 2, 3), (4 5), space); //returns [1 2 3 4 5]
+}
+.test5{
+	padding: join((1, 2, 3), (4 5), auto); //returns [1, 2, 3, 4, 5]
+}
+.test5{
+	padding: join((1 2 3), (4 5), comma); //returns [1, 2, 3, 4, 5]
+}
+
+
+
+.test6{
+	padding: append($list, 70px); //returns [10px 20px 30px 70px]
+}
+.test6{
+	padding: append($list, 70px 80px); //returns [10px 20px 30px 70px 80px]
+}
+.test6{
+	padding: append((red, green), blue); //returns [red, green, blue]
+}
+.test6{
+	padding: append($list, 70px 80px, comma); //returns [10px, 20px, 30px, 70px 80px]
+}
+
+
+.test6{
+	padding: zip($list,$list2); //returns [10px 40px, 20px 50px, 30px 60px]
+}
+.test6{
+	padding: zip((red, green,blue),(10px, 15px, 5px) ); //returns [red 10px, green 15px, blue 5px]
+}
+.test6{
+	padding: zip(red green blue, 10px 15px 5px ); //returns [red 10px, green 15px, blue 5px]
+}
+
+
+.test7{
+	padding: index($list, 20px); //returns 2
+}
+.test7{
+	padding: index($list, 30); //returns 3
+}
+.test7{
+	padding: index($list, 50); //returns null
+}
+
+
+.test8{
+	padding: list-separator($list); //returns [space]
+}
+
+
+.test9{
+	padding: is-bracketed($list); //returns [false]
+}

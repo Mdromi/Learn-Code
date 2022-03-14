@@ -1,0 +1,40 @@
+h1{
+    color: teal;
+}
+
+.first{
+    width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: pink;
+    border: 5px solid  black;
+    column-count: 3;
+    column-gap: 50px;
+    column-rule-width: 2px;
+    column-rule-style: solid;
+    column-rule-color: white;
+}
+
+.third{
+    width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: goldenrod;
+    border: 5px solid  black;
+    column-width: 250px;
+    column-gap: 50px;
+    column-rule: 2px solid white;
+}
+
+.third h2{
+    column-span: all;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}

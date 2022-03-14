@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: slategrey; }
+
+.wrapper {
+  margin: 0 auto;
+  width: 1000px;
+  border: 1px solid black;
+  background: white; }
+
+.top_bar {
+  background: crimson;
+  color: #fff;
+  font-family: arial;
+  border-bottom: 1px solid black;
+  padding: 30px 20px; }
+  .top_bar h2::selection {
+    background-color: #fff;
+    color: crimson; }
+
+.menu_bar {
+  background: #ccc; }
+  .menu_bar ul {
+    text-align: left;
+    font-family: arial; }
+  .menu_bar li {
+    display: inline-block;
+    padding: 20px 8px; }
+    .menu_bar li a {
+      text-decoration: none;
+      color: #000;
+      transtion: 0.3s all easy; }
+  .menu_bar li:hover {
+    background: crimson; }
+  .menu_bar li:hover a {
+    color: #fff; }
+
+.middle_wrapper {
+  display: flex; }
+
+.left_side_content {
+  width: 800px;
+  float: left; }
+  .left_side_content .main_content {
+    padding: 30px 10px;
+    font-family: arial; }
+    .left_side_content .main_content h1 {
+      padding: 6px 5px;
+      font-size: 32px;
+      padding-bottom: 12px; }
+    .left_side_content .main_content h1::selection {
+      background-color: crimson;
+      color: #fff; }
+    .left_side_content .main_content p {
+      font-size: 16px;
+      line-height: 25px; }
+    .left_side_content .main_content p::selection {
+      background-color: crimson;
+      color: #fff; }
+    .left_side_content .main_content .content_list {
+      padding: 20px 30px; }
+      .left_side_content .main_content .content_list li {
+        line-height: 25px; }
+      .left_side_content .main_content .content_list li::selection {
+        background-color: crimson;
+        color: #fff; }
+
+.right_side_content {
+  width: 198px;
+  float: right;
+  background: #eee;
+  border-left: 1px solid crimson;
+  height: 100%; }
+  .right_side_content ul {
+    padding: 20px 30px; }
+  .right_side_content li {
+    list-style: circle;
+    font-family: arial;
+    padding: 5px 10px; }
+  .right_side_content a {
+    text-decoration: none;
+    color: #000; }
+  .right_side_content a::selection {
+    background-color: crimson;
+    color: #fff; }
+
+footer {
+  background: crimson; }
+  footer .footer {
+    padding: 20px 0px; }
+    footer .footer p {
+      color: #fff;
+      font-family: arial;
+      font-size: 17px;
+      font-weight: normal;
+      text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

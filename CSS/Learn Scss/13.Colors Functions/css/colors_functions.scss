@@ -1,0 +1,51 @@
+$base-color : pink;
+$base-secound-color: green;
+$font : arial;
+*{
+	margin:0;
+	padding:0;
+	font-family: $font;
+}
+
+.wrapper{
+	margin-top:20px;
+	margin-left:30px;
+}
+
+.first, .secound, .third, .fourth, .five, .six, .seven, .eight, .nine{
+	width:400px;
+	height:100px;
+	margin-bottom:20px;
+	border:1px solid #000;
+}
+.first{
+	background: $base-color;
+}
+.third,{
+	background: $base-secound-color;
+}
+
+
+
+.secound{
+	background-color: darken($base-color,10)
+}
+
+.fourth{
+	background-color: lighten($base-secound-color,50)
+}
+.five{
+	background-color: adjust-hue($base-secound-color,80)
+}
+.six{
+	background-color: saturate($base-secound-color,30)
+}
+.seven{
+	background-color: desaturate($base-secound-color,80)
+}
+.eight{
+	background-color: mix($base-secound-color,yellow,30)
+}
+.nine{
+	background-color: transparentize($base-color,0.3)
+}

@@ -1,0 +1,76 @@
+.test1 {
+  padding: 3; }
+
+.test2 {
+  padding: 2; }
+
+.test3 {
+  padding: 20px; }
+
+.test3 {
+  padding: 30px; }
+
+.test3 {
+  padding: list3; }
+
+.test4 {
+  padding: 2em 20px 30px; }
+
+.test4 {
+  padding: Helvetica, Roboto, Verdana; }
+
+.test5 {
+  padding: 10px 20px 30px 10px 20px 30px; }
+
+.test5 {
+  padding: 1 2 3 4 5; }
+
+.test5 {
+  padding: 1 2 3 4 5; }
+
+.test5 {
+  padding: 1, 2, 3, 4, 5; }
+
+.test5 {
+  padding: 1 2 3 4 5; }
+
+.test5 {
+  padding: 1, 2, 3, 4, 5; }
+
+.test5 {
+  padding: 1, 2, 3, 4, 5; }
+
+.test6 {
+  padding: 10px 20px 30px 70px; }
+
+.test6 {
+  padding: 10px 20px 30px 70px 80px; }
+
+.test6 {
+  padding: red, green, blue; }
+
+.test6 {
+  padding: 10px, 20px, 30px, 70px 80px; }
+
+.test6 {
+  padding: 10px 40px, 20px 50px, 30px 60px; }
+
+.test6 {
+  padding: red 10px, green 15px, blue 5px; }
+
+.test6 {
+  padding: red 10px, green 15px, blue 5px; }
+
+.test7 {
+  padding: 2; }
+
+.test7 {
+  padding: 3; }
+
+.test8 {
+  padding: space; }
+
+.test9 {
+  padding: false; }
+
+/*# sourceMappingURL=list_functions.css.map */

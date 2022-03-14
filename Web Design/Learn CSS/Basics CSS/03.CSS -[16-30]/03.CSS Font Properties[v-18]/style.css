@@ -1,0 +1,45 @@
+h1{
+    color: teal;
+}
+
+.first{
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: pink;
+    border: 5px solid  black;
+    float: left;
+    font-variant: small-caps;
+}
+
+.second{
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: greenyellow;
+    border: 5px solid  black;
+    float: right;
+    font-style: oblique;
+}
+
+.third{
+    margin: 20px auto;
+    padding: 20px;
+    background-color: goldenrod;
+    border: 5px solid  black;
+    clear: both;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+.third span{
+    font-weight: bold;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
